@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import * as firebase from "firebase";
 
-function withFirebaseAuth(WrappedComponent, selectData) {
+function withFirebaseAuth(WrappedComponent) {
   return class extends Component {
     constructor(props) {
       super(props);
